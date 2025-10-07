@@ -67,7 +67,7 @@ Version: 1.0
 
 /* Hero Section CSS */
 .ds-hero-sec {
-  padding: 325px 0 130px;
+  padding: 200px 0 250px;
   background-color: #F9F4FC;
   overflow: hidden;
 }
@@ -105,7 +105,7 @@ Version: 1.0
   margin-bottom: 60px;
 }
 .ds-hero-sec .hero-content h1 {
-  font-size: 360px;
+  font-size: 300px;
   line-height: 1;
 }
 @media (max-width: 1650px) {
@@ -156,8 +156,8 @@ Version: 1.0
 }
 .ds-hero-sec .hero-image-wrap {
   position: absolute;
-  bottom: -15px;
-  left: 52%;
+  bottom: 0px;
+  left: 60%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 55%;
