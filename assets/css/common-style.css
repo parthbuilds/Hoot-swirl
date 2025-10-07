@@ -809,7 +809,7 @@ label {
   color: var(--white-color);
 }
 .theme-btn.style-two {
-  background-color: var(--footer-color);
+  background-color: var(--white-color);
   padding: 17px 22px;
   border: 1px solid var(--primary-color);
   border-radius: 100px;

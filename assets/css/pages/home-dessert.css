@@ -193,50 +193,71 @@ Version: 1.0
     width: 55%;
   }
 }
-.ds-hero-sec .bistly-author-box {
+.ds-hero-sec .bistly-live-box {
   -webkit-margin-start: auto;
           margin-inline-start: auto;
 }
 @media screen and (max-width: 991.98px) {
-  .ds-hero-sec .bistly-author-box {
+  .ds-hero-sec .bistly-live-box {
     -webkit-margin-start: inherit;
             margin-inline-start: inherit;
     margin: 40px auto 0;
   }
 }
 
-.bistly-author-box {
-  background-color: var(--primary-color);
+.bistly-live-box {
+  background-color: rgba(255, 191, 0, 0.75);
   max-width: 380px;
-  padding: 30px 30px 10px;
+  padding: 20px 30px 30px;
   border-radius: 20px;
 }
-.bistly-author-box .author-thumbs {
+
+.bistly-live-box .live-btn {
   margin-bottom: 10px;
 }
-.bistly-author-box .author-thumbs img {
+.bistly-live-box .live-btn img {
   width: 55px;
   height: 55px;
-  border-radius: 50%;
-  border: 2px solid var(--white-color);
 }
-.bistly-author-box .author-thumbs img:not(:first-child) {
+.bistly-live-box .live-btn img:not(:first-child) {
   margin-left: -15px;
 }
-.bistly-author-box h2 {
+.bistly-live-box h2 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  line-height: 10px;
   font-size: 48px;
 }
-.bistly-author-box h2 span {
+.bistly-live-box h2 h5 {
   margin-left: 15px;
   font-size: 24px;
   font-family: var(--body-font);
-  font-weight: 400;
+  font-weight: 300;
+}
+
+.live-btn {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.live-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.live-btn .time {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.bistly-live-box h2 {
+  margin-top: 8px;
 }
 
 /* Categories Section CSS */
