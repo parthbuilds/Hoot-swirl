@@ -204,3 +204,17 @@ Version: 1.0
 	});
 
 })(window.jQuery);
+
+function updateLiveDate() {
+    const dateElement = document.getElementById('live-date');
+    if (!dateElement) return;
+
+    const today = new Date();
+    const day = today.getDate();
+    const month = today.toLocaleString('default', { month: 'long' });
+
+    dateElement.textContent = `${day} ${month}`;
+  }
+
+  // Run the function when the page loads
+  document.addEventListener('DOMContentLoaded', updateLiveDate);
