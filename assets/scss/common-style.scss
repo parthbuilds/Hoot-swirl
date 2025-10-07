@@ -1,7 +1,7 @@
 
 /*----------------------------------------------------------------------------------- 
 
-Template Name: Bistly - Restaurant & Cafe HTML Template
+Template Name: Hoot & Swirl - Handcrafted Deserts
 URI: Hoot & Swirl.agency
 Description: Bistly is a clean, modern, and fully responsive HTML template designed specifically for restaurants, cafes, bakeries, coffee shops, and food-related businesses. Crafted with attention to detail and built using the latest web technologies, Bistly ensures an exceptional user experience on all devices.
 Author: Hoot & Swirl
