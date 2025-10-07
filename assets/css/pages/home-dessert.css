@@ -157,7 +157,7 @@ Version: 1.0
 .ds-hero-sec .hero-image-wrap {
   position: absolute;
   bottom: 0;
-  left: 60%;
+  left: 80%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 55%;
@@ -777,7 +777,7 @@ Version: 1.0
   margin-bottom: 45px;
 }
 .ds-cta-wrapper .ds-cta-box form .form_control {
-  padding: 10px 20px;
+  padding: 13px 20px;
   border-radius: 50px;
   border: none;
 }
@@ -787,7 +787,7 @@ Version: 1.0
   right: 0;
 }
 .ds-cta-wrapper .ds-cta-box form .theme-btn.style-one {
-  border-radius: 0px;
+  border-radius: 30px;
 }
 @media (max-width: 767.98px) {
   .ds-cta-wrapper .ds-cta-box form .theme-btn {
