@@ -1435,7 +1435,7 @@ label {
   top: 0;
   right: 0;
   background-color: transparent;
-  color: var(--black-dark-color);
+  color: var(--white-color);
   font-weight: 500;
 }
 .footer-newsletter-widget .widget-content form .submit-btn i {
